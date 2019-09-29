@@ -4,6 +4,15 @@ public class ChatMessage {
 
     private String value;
     private String user;
+    private String color;
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
 
     public String getUser() {
         return user;
